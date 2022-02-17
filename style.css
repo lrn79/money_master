@@ -1,0 +1,36 @@
+input{
+    border: none;
+    background-color: #dcdcdcbd;
+    border-radius: 5px;
+    padding: .9rem 1.5rem;
+    position: relative;
+    margin-left:50px ;
+    text-align: right;
+}
+
+button{
+    position: relative;
+    margin-left:170px ;
+    border: none;
+    background-color: rgb(17, 136, 209);
+    padding: .8rem 2rem;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 1.7rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h4{
+    font-size: 22px;
+    font-weight: 600;
+}
+.for_margin{
+    position: relative;
+    margin-left: 70px;
+}
