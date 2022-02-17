@@ -1,20 +1,30 @@
 input{
-    border: none;
-    background-color: #dcdcdcbd;
-    border-radius: 5px;
-    padding: .9rem 1.5rem;
+    border: 2px solid  rgba(17, 135, 209, 0.418);
+    background-color:#dcdcdc8a;
+    border-radius: 10px;
+    padding: 5px 10px;
     position: relative;
-    margin-left:50px ;
+     
 }
 
-button{
+.button_calculate{
     position: relative;
-    margin-left:170px ;
+    margin-left: 170px;
     border: none;
     background-color: rgb(17, 136, 209);
-    padding: .8rem 2rem;
+    padding: .4rem 0.9rem;
     color: #FFF;
     font-weight: 600;
+    font-size: 1.7rem;
+    border-radius: 5px;
+    text-align: center;
+}
+.button_save{
+    border: none;
+    background-color: rgb(17, 136, 209);
+    padding: 1px 10px; 
+    color: #FFF;
+    font-weight: 400;
     font-size: 1.7rem;
     border-radius: 5px;
     text-align: center;
@@ -31,5 +41,31 @@ h4{
 }
 .for_margin{
     position: relative;
-    margin-left: 70px;
+    margin-left: 170px;
+    font-weight: 800;
 }
+.error {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    background: #222436;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 2px 10px;
+    display: none;
+    
+}
+.error_section{
+    width: 35%;
+    margin: 0 auto;
+}
+.banner{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+.bg_color{
+    background-color: #f53ed72a;
+}
+/* for font waight */
+
