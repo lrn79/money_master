@@ -67,5 +67,7 @@ h4{
 .bg_color{
     background-color: #f53ed72a;
 }
-/* for font waight */
 
+#error_id_two{
+    display: none;
+}

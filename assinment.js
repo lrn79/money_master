@@ -18,12 +18,17 @@ function calculatBtn() {
     var totalBalance = document.getElementById('total_balance');
     // ?error message
     const errorMessage = document.getElementById('error_id');
+    const errorMessageTwo = document.getElementById('error_id_two');
 
     if (incumInputValue < 0 || foodInputValue < 0 || rentInputValue < 0 || clothesInputValue < 0) {
         errorMessage.style.display = 'block';
     }
+    else if (isNaN(incumInputValue) || isNaN(foodInputValue) || isNaN(rentInputValue) || isNaN(clothesInputValue)) {
+        errorMessageTwo.style.display = 'block';
+    }
     else {
         errorMessage.style.display = 'none';
+        errorMessageTwo.style.display = 'none';
 
         const total = foodInputValue + rentInputValue + clothesInputValue;
 
