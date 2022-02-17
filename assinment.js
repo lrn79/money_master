@@ -38,6 +38,8 @@ document.getElementById('calculate_btn').addEventListener('click', function () {
 });
 
 
+// savings part
+
 function calculateSavings() {
     let incomeInput = document.getElementById('income_input');
     let incomeInputValue = parseInt(incomeInput.value);
