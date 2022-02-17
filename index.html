@@ -23,32 +23,32 @@
     <!-- main part -->
     <main class="container mt-5">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col col-lg-6">
                 <img class="img-fluid" src="money_1.jpg" alt="" srcset="">
             </div>
-            <div class="col-lg-6">
+            <div class="col col-lg-6">
                 <h4 class="for_margin text-start mt-5">Income</h4>
 
                 <p>Income:
-                    <input class="mx-5" type="text">
+                    <input id="income_input" class="mx-5" type="text">
                 </p>
                 <h4 class="for_margin text-start">Expenses</h4>
 
                 <p>Food:
-                    <input class="mx-5" type="text">
+                    <input id="food_input" class="mx-5" type="text">
                 </p>
 
                 <p>Rent:
-                    <input class="mx-5" type=text">
+                    <input id="rent_input" class="mx-5" type=text">
                 </p>
 
                 <p>Clothes:
-                    <input class="mx-5" type="text">
+                    <input id="clothes_input" class="mx-5" type="text">
                 </p>
-                <button type="button">Calculate</button>
+                <button type="button" id="calculate_btn">Calculate</button>
                 <!-- savings part extra -->
-                <h4 class="text-center">Total Expenses: <span>00</span></h4>
-                <h4 class="text-center">Balance: <span>00</span></h4>
+                <h4 class="text-center">Total Expenses: <span id="total_expenses">00</span></h4>
+                <h4 class="text-center">Balance: <span id="total_balance">00</span></h4>
                 <p>Save: <input type="text"> % <button>Save</button></p>
                 <h4 class="text-center">Saving amount: <span>00</span></h4>
                 <h4 class="text-center">Remaining Balance: <span>00</span></h4>
@@ -56,6 +56,12 @@
         </div>
     </main>
 
+
+
+
+
+
+    <script src="assinment.js"></script>
 </body>
 
 </html>
